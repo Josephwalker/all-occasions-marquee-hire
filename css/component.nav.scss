@@ -42,10 +42,6 @@
 .nav__list-item { 
 	@media screen and (min-width: 600px) {
 		display: inline-block;
-
-		&:first-of-type {
-			float: left;
-		}
 	}
 }
 

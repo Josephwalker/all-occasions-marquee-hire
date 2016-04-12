@@ -481,8 +481,8 @@ html {
   /* [1] */
   line-height: 1.5;
   /* [1] */
-  background-color: #212121;
-  color: #bfbfbf;
+  background-color: #fff;
+  color: #000080;
   overflow-y: scroll;
   /* [2] */
   min-height: 100%;
@@ -500,181 +500,6 @@ html {
 /*------------------------------------*\
     #PAGE
 \*------------------------------------*/
-@font-face {
-  font-family: "grot-12";
-  src: url("../../fonts/Grot12-MediumWEB.woff") format("woff");
-}
-html {
-  height: 100%;
-  font-family: 'grot-12', sans-serif;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-
-body {
-  min-height: 100%;
-}
-
-.logo {
-  width: 160px;
-  margin-bottom: 12px;
-}
-
-.header {
-  position: fixed;
-  width: 100%;
-}
-
-.highlight {
-  text-decoration: none;
-}
-.highlight:hover {
-  color: magenta;
-}
-
-.play {
-  display: inline-block;
-  vertical-align: top;
-}
-.play:hover {
-  cursor: pointer;
-}
-
-form {
-  margin: 0 auto;
-  margin-top: 24px;
-}
-@media screen and (min-width: 600px) {
-  form {
-    margin-right: 200px;
-  }
-}
-
-.quote {
-  min-height: 260px;
-  width: 100%;
-  margin-top: 24px;
-  margin-bottom: 48px;
-  padding: 24px;
-  border: 1px solid #3d3d3d;
-  background-color: #212121;
-  font-size: 18px;
-  line-height: 24px;
-  /* FF 4-18 */
-  /* FF 19+ */
-  /* IE 10+ */
-}
-@media screen and (min-width: 600px) {
-  .quote {
-    font-size: 22px;
-    line-height: 26px;
-  }
-}
-.quote::-webkit-input-placeholder {
-  /* WebKit, Blink, Edge */
-  color: #3d3d3d;
-}
-.quote::-moz-placeholder {
-  /* Mozilla Firefox 19+ */
-  color: #3d3d3d;
-  opacity: 1;
-}
-.quote:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #3d3d3d;
-}
-.quote:placeholder-shown {
-  /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
-  color: #3d3d3d;
-}
-.quote:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-.quote:focus:-moz-placeholder {
-  color: transparent;
-}
-.quote:focus::-moz-placeholder {
-  color: transparent;
-}
-.quote:focus:-ms-input-placeholder {
-  color: transparent;
-}
-.quote:focus {
-  outline: 0;
-}
-
-.page-section {
-  margin: 0 auto;
-  max-width: 1008px;
-  padding-top: 65px;
-  padding-right: 24px;
-  padding-bottom: 50vh;
-  padding-left: 24px;
-}
-@media screen and (min-width: 600px) {
-  .page-section {
-    padding-top: 180px;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .page-section--home {
-    padding-right: 150px;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .page-section--text {
-    padding-right: 300px;
-  }
-}
-
-a {
-  color: #bfbfbf;
-}
-a:hover {
-  color: magenta;
-}
-
-.heading {
-  font-size: 40px;
-  font-weight: 500;
-}
-@media screen and (min-width: 750px) {
-  .heading {
-    font-size: 90px;
-  }
-}
-
-p {
-  font-size: 18px;
-  line-height: 24px;
-  margin-bottom: 24px;
-}
-@media screen and (min-width: 600px) {
-  p {
-    font-size: 30px;
-    line-height: 34px;
-  }
-}
-
-.small p {
-  font-size: 18px;
-  line-height: 24px;
-}
-@media screen and (min-width: 600px) {
-  .small p {
-    font-size: 22px;
-    line-height: 26px;
-  }
-}
-
-cite {
-  font-style: normal;
-}
-
 /*------------------------------------*\
     #HEADINGS
 \*------------------------------------*/
@@ -719,9 +544,9 @@ h5,
 
 h6,
 .zeta {
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 2;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.71429;
 }
 
 /*------------------------------------*\
@@ -792,12 +617,12 @@ img[height] {
   /* [6] */
   padding: 12px 24px;
   /* [7] */
-  background-color: #212121;
+  background-color: #70BE68;
 }
 .btn, .btn:hover, .btn:active, .btn:focus {
   text-decoration: none;
   /* [4] */
-  color: #bfbfbf;
+  color: #000080;
 }
 
 /**
@@ -822,7 +647,7 @@ img[height] {
 }
 .btn:hover {
   background-color: magenta;
-  color: #212121;
+  color: #fff;
 }
 
 /*------------------------------------*\
@@ -883,7 +708,7 @@ img[height] {
 .nav {
   display: none;
   width: 100vw;
-  background-color: #212121;
+  background-color: #fff;
 }
 @media screen and (min-width: 600px) {
   .nav {
@@ -902,7 +727,7 @@ img[height] {
   display: block;
   padding-top: 24px;
   padding-left: 24px;
-  background-color: #212121;
+  background-color: #fff;
 }
 @media screen and (min-width: 600px) {
   .nav__button {
@@ -916,9 +741,6 @@ img[height] {
 @media screen and (min-width: 600px) {
   .nav__list-item {
     display: inline-block;
-  }
-  .nav__list-item:first-of-type {
-    float: left;
   }
 }
 

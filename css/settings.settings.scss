@@ -7,23 +7,20 @@ $inuit-enable-margins--small: true;
 $inuit-enable-paddings--small: true;
 
 // Colour
-$burton-red: #88221E;
-$burton-gold: #BC9840;
+$c-blue: #000080;
+$c-green: #70BE68;
 
 $white: #fff;
 
-
 // High-level base settings.
-$inuit-base-text-color: #bfbfbf;
-$inuit-base-background-color: #212121;
+$inuit-base-text-color: $c-blue;
+$inuit-base-background-color: $white;
 
 
-$inuit-btn-background:      $inuit-base-background-color;
+$inuit-btn-background:      $c-green;
 $inuit-btn-color:           $inuit-base-text-color;
 $inuit-btn-border-width:    0;
 $inuit-btn-border-style:    solid;
-$inuit-btn-border-color:    #fff;
+$inuit-btn-border-color:    $white;
 $inuit-btn-radius:          0;
 
-
-$inuit-heading-size-6: 12px;
