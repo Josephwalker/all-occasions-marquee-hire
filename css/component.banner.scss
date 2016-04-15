@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    #BANNER
+\*------------------------------------*/
+
+.banner {
+	background-color: $c-blue;
+	background-image: url("../img/banner.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+.banner__inner {
+	padding: $inuit-base-spacing-unit 0;
+
+	@include media-query(lap-and-up) {
+		padding: $inuit-base-spacing-unit * 4 0;
+	}
+}
+
+
+.banner__heading {
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 26px;
+	text-align: center;
+	font-weight: normal;
+
+	margin-bottom: $inuit-base-spacing-unit;
+
+	@media screen and (min-width: 600px) {
+		font-size: 60px;
+
+		text-align: left;
+	}
+
+
+	text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+	color: $white;
+
+
+}

@@ -2,3 +2,20 @@
     #PAGE
 \*------------------------------------*/
 
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+}
+
+.wrap {
+	max-width: 1280px;
+	margin: 0 auto;
+
+	padding-left: $inuit-base-spacing-unit/2;
+    padding-right: $inuit-base-spacing-unit/2;
+
+	@include media-query(lap-and-up) {
+		padding-left: $inuit-base-spacing-unit;
+    	padding-right: $inuit-base-spacing-unit;
+	}
+}

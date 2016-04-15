@@ -25,12 +25,15 @@
 // objects
 @import "bower_components/inuit-buttons/objects.buttons";
 @import "objects.buttons";
+@import "objects.img";
 @import "bower_components/inuit-layout/objects.layout";
 @import "bower_components/inuit-list-inline/objects.list-inline";
 
 
 // components
 @import "component.nav";
+@import "component.banner";
+@import "component.footer";
 
 // trumps
 @import "bower_components/inuit-spacing/trumps.spacing";

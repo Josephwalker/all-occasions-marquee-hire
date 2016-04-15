@@ -6,6 +6,8 @@ $inuit-enable-margins: true;
 $inuit-enable-margins--small: true;
 $inuit-enable-paddings--small: true;
 
+$inuit-enable-btn--small: true;
+
 // Colour
 $c-blue: #000080;
 $c-green: #70BE68;
@@ -18,7 +20,7 @@ $inuit-base-background-color: $white;
 
 
 $inuit-btn-background:      $c-green;
-$inuit-btn-color:           $inuit-base-text-color;
+$inuit-btn-color:           $white;
 $inuit-btn-border-width:    0;
 $inuit-btn-border-style:    solid;
 $inuit-btn-border-color:    $white;
