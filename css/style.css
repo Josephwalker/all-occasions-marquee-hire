@@ -540,7 +540,13 @@ body {
   margin-top: 24px;
   padding-bottom: 48px;
   background-color: #000080;
+  background: -webkit-linear-gradient(#000080, #101864);
+  background: linear-gradient(#000080, #101864);
   color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
 }
 
 p {
