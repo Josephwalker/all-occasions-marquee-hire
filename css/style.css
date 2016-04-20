@@ -506,7 +506,7 @@ body {
 }
 
 .wrap {
-  max-width: 1280px;
+  max-width: 1160px;
   margin: 0 auto;
   padding-left: 12px;
   padding-right: 12px;
@@ -537,6 +537,8 @@ body {
 }
 
 .slice {
+  margin-top: 24px;
+  padding-bottom: 48px;
   background-color: #000080;
   color: #fff;
 }
@@ -701,7 +703,7 @@ img[height] {
 }
 @media screen and (min-width: 900px) {
   .img {
-    margin-top: -70px;
+    margin-top: -50px;
   }
 }
 

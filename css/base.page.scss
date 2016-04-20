@@ -8,7 +8,7 @@ body {
 }
 
 .wrap {
-	max-width: 1280px;
+	max-width: 1160px;
 	margin: 0 auto;
 
 	padding-left: $inuit-base-spacing-unit/2;
@@ -40,6 +40,9 @@ body {
 }
 
 .slice {
+	margin-top: $inuit-base-spacing-unit;
+	padding-bottom: $inuit-base-spacing-unit*2;
+
 	background-color: $c-blue;
 
 	color: $white;
