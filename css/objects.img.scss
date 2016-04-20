@@ -2,9 +2,21 @@
     #IMG
 \*------------------------------------*/
 
-.img {
-	border: $inuit-base-spacing-unit/4 solid $white;
 
+.img--border {
+	border-style: solid;
+	border-width: $inuit-base-spacing-unit/4;
+}
+
+.img--border-white {
+	border-color: $white;
+}
+
+.img--border-blue {
+	border-color: $c-blue;
+}
+
+.img--pull-up {
 	@include media-query(lap-and-up) {
 		margin-top: -50px;
 	}

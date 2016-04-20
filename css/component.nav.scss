@@ -4,6 +4,15 @@
 
 .nav {
 	margin: 0 auto;
+
+	@include media-query(lap-and-up) {
+		border-color: rgb(191, 191, 191);
+		border-style: solid;
+		border-width: 0;
+
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+	}
 }
 
 .nav__list {
@@ -27,11 +36,12 @@
 
 .nav__button {
 	display: block;
-	float: right;
 
 	@include media-query(lap-and-up) {
 		display: none;
 	}
+
+	text-align: right;
 
 	&:hover {
 		cursor: pointer;

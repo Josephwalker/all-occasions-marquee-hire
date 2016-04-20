@@ -698,11 +698,21 @@ img[height] {
 /*------------------------------------*\
     #IMG
 \*------------------------------------*/
-.img {
-  border: 6px solid #fff;
+.img--border {
+  border-style: solid;
+  border-width: 6px;
 }
+
+.img--border-white {
+  border-color: #fff;
+}
+
+.img--border-blue {
+  border-color: #000080;
+}
+
 @media screen and (min-width: 900px) {
-  .img {
+  .img--pull-up {
     margin-top: -50px;
   }
 }
@@ -765,6 +775,15 @@ img[height] {
 .nav {
   margin: 0 auto;
 }
+@media screen and (min-width: 900px) {
+  .nav {
+    border-color: #bfbfbf;
+    border-style: solid;
+    border-width: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+  }
+}
 
 .nav__list {
   display: none;
@@ -785,7 +804,7 @@ img[height] {
 
 .nav__button {
   display: block;
-  float: right;
+  text-align: right;
   background-color: #fff;
 }
 @media screen and (min-width: 900px) {
@@ -960,6 +979,41 @@ img[height] {
 .mv- {
   margin-top: 12px !important;
   margin-bottom: 12px !important;
+}
+
+/**
+ * Padding helper classes.
+ *
+ * Add paddings.
+ */
+.p {
+  padding: 24px !important;
+}
+
+.pt {
+  padding-top: 24px !important;
+}
+
+.pr {
+  padding-right: 24px !important;
+}
+
+.pb {
+  padding-bottom: 24px !important;
+}
+
+.pl {
+  padding-left: 24px !important;
+}
+
+.ph {
+  padding-right: 24px !important;
+  padding-left: 24px !important;
+}
+
+.pv {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
 }
 
 /**
