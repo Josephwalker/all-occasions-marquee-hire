@@ -16,7 +16,7 @@ $(function() {
 
 $(function() {   
     $('.nav__button').on('click', function(e) {
-      $('.nav').toggleClass("nav--active");
+      $('.nav__list').toggleClass("nav--active");
       e.preventDefault();
     });
 });
@@ -24,7 +24,7 @@ $(function() {
 
 $(function() {   
     $('.nav__item').on('click', function(e) {
-      $('.nav').toggleClass("nav--active");
+      $('.nav__list').toggleClass("nav--active");
       e.preventDefault();
     });
 });

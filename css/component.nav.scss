@@ -3,18 +3,21 @@
 \*------------------------------------*/
 
 .nav {
+	margin: 0 auto;
+}
+
+.nav__list {
 	display: none;
 
 	width: 100vw;
-	background-color: $inuit-base-background-color; 
 
-	@media screen and (min-width: 600px) {
+	@include media-query(lap-and-up) {
 		display: block;
 
 	    height: 48px;
 	    width: 100%;
 
-	    text-align: right;
+	    text-align: center;
 	}
 }
 
@@ -24,30 +27,35 @@
 
 .nav__button {
 	display: block;
+	float: right;
 
-	@media screen and (min-width: 600px) {
+	@include media-query(lap-and-up) {
 		display: none;
 	}
-
-	padding-top: $inuit-base-spacing-unit;
-	padding-left: $inuit-base-spacing-unit;
 
 	&:hover {
 		cursor: pointer;
 	}
 
-	background-color: $inuit-base-background-color; 
+	background-color: $inuit-base-background-color;
+}
+
+.nav__button-text {
+	color: rgb(191, 191, 191);
+	text-transform: uppercase;
+	font-weight: normal;
+	vertical-align: super;
 }
 
 .nav__list-item { 
-	@media screen and (min-width: 600px) {
+	@include media-query(lap-and-up) {
 		display: inline-block;
 	}
 }
 
 .nav__item {
 	display: block;
-	@media screen and (min-width: 600px) {
+	@include media-query(lap-and-up) {
 		display: inline-block;
 
 		padding-left: $inuit-base-spacing-unit--small;

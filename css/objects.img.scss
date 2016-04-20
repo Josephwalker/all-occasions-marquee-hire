@@ -5,5 +5,7 @@
 .img {
 	border: $inuit-base-spacing-unit/4 solid $white;
 
-	margin-top: -70px;
+	@include media-query(lap-and-up) {
+		margin-top: -70px;
+	}
 }

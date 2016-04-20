@@ -19,3 +19,32 @@ body {
     	padding-right: $inuit-base-spacing-unit;
 	}
 }
+
+.header {
+	background-color: $inuit-base-background-color; 
+}
+
+.header__logo {
+	display: block;
+	width: 240px;
+	margin: 0 auto;
+
+	margin-top: $inuit-base-spacing-unit/2;
+	margin-bottom: $inuit-base-spacing-unit/2;
+	
+
+	@include media-query(lap-and-up) {
+		margin-top: $inuit-base-spacing-unit/2;
+		margin-bottom: $inuit-base-spacing-unit/2;
+	}
+}
+
+.slice {
+	background-color: $c-blue;
+
+	color: $white;
+}
+
+p {
+	margin-bottom: $inuit-base-spacing-unit;
+}

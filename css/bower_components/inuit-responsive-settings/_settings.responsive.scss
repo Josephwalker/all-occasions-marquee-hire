@@ -8,9 +8,9 @@
 // `_tools.responsive`.
 
 $breakpoints: (
-    "palm"          "screen and (max-width: 719px)",
-    "lap"           "screen and (min-width: 720px) and (max-width: 1023px)",
-    "lap-and-up"    "screen and (min-width: 720px)",
+    "palm"          "screen and (min-width: 599px)",
+    "lap"           "screen and (min-width: 600px) and (max-width: 1023px)",
+    "lap-and-up"    "screen and (min-width: 900px)",
     "portable"      "screen and (max-width: 1023px)",
     "desk"          "screen and (min-width: 1024px)",
     "retina"        "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)"
