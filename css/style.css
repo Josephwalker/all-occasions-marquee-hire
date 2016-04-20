@@ -872,6 +872,12 @@ img[height] {
   }
 }
 
+@media screen and (min-width: 900px) {
+  .banner__inner--thin {
+    padding: 48px 0;
+  }
+}
+
 .banner__heading {
   font-family: Georgia,Times,Times New Roman,serif;
   font-size: 26px;

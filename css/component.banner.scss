@@ -17,6 +17,11 @@
 	}
 }
 
+.banner__inner--thin {
+	@include media-query(lap-and-up) {
+		padding: $inuit-base-spacing-unit * 2 0;
+	}
+}
 
 .banner__heading {
 	font-family: Georgia,Times,Times New Roman,serif;
