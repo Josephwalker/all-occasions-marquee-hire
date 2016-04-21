@@ -3,8 +3,9 @@
 \*------------------------------------*/
 
 
-
 .btn {
+	padding-left: $inuit-base-spacing-unit;
+	padding-right: $inuit-base-spacing-unit;
 	font-size: 20px;
     
     &:hover {
@@ -12,6 +13,11 @@
     }
 }
 
+.btn--secondary {
+	background-color: transparent;
+
+	border: 1px solid $white;
+}
 
 
 

@@ -706,7 +706,14 @@ img[height] {
     #BUTTONS
 \*------------------------------------*/
 .btn {
+  padding-left: 24px;
+  padding-right: 24px;
   font-size: 20px;
+}
+
+.btn--secondary {
+  background-color: transparent;
+  border: 1px solid #fff;
 }
 
 /*------------------------------------*\
@@ -819,6 +826,7 @@ img[height] {
 
 .nav__button {
   display: block;
+  margin-right: 12px;
   text-align: right;
   background-color: #fff;
 }
@@ -874,15 +882,19 @@ img[height] {
 }
 
 .banner__inner {
-  padding: 24px 0;
+  padding-top: 24px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 599px) {
   .banner__inner {
     padding: 96px 0;
   }
 }
 
-@media screen and (min-width: 900px) {
+.banner__inner--thin {
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+@media screen and (min-width: 599px) {
   .banner__inner--thin {
     padding: 48px 0;
   }
@@ -893,14 +905,35 @@ img[height] {
   font-size: 26px;
   text-align: center;
   font-weight: normal;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   color: #fff;
 }
 @media screen and (min-width: 600px) {
   .banner__heading {
+    margin-bottom: 24px;
     font-size: 60px;
     text-align: left;
+  }
+}
+
+.banner__button-1 {
+  width: 100%;
+}
+@media screen and (min-width: 599px) {
+  .banner__button-1 {
+    width: inherit;
+    margin-right: 24px;
+    margin-left: 0;
+  }
+}
+
+.banner__button-2 {
+  display: none;
+}
+@media screen and (min-width: 599px) {
+  .banner__button-2 {
+    display: inline-block;
   }
 }
 

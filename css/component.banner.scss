@@ -10,15 +10,18 @@
 }
 
 .banner__inner {
-	padding: $inuit-base-spacing-unit 0;
+	padding-top: $inuit-base-spacing-unit;
 
-	@include media-query(lap-and-up) {
+	@include media-query(palm) {
 		padding: $inuit-base-spacing-unit * 4 0;
 	}
 }
 
 .banner__inner--thin {
-	@include media-query(lap-and-up) {
+	padding-top: $inuit-base-spacing-unit;
+	padding-bottom: 16px;
+
+	@include media-query(palm) {
 		padding: $inuit-base-spacing-unit * 2 0;
 	}
 }
@@ -29,17 +32,34 @@
 	text-align: center;
 	font-weight: normal;
 
-	margin-bottom: $inuit-base-spacing-unit;
+	margin-bottom: 16px;
 
 	@media screen and (min-width: 600px) {
-		font-size: 60px;
+		margin-bottom: $inuit-base-spacing-unit;
 
+		font-size: 60px;
 		text-align: left;
 	}
 
 
 	text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
 	color: $white;
+}
 
+.banner__button-1 {
+	width: 100%;
 
+	@include media-query(palm) {
+		width: inherit;
+		margin-right: $inuit-base-spacing-unit;
+		margin-left: 0;
+	}
+}
+
+.banner__button-2 {
+	display: none;
+
+	@include media-query(palm) {
+		display: inline-block;
+	}
 }
