@@ -20,6 +20,8 @@
 
 	width: 100vw;
 
+	margin-left: 0px;
+
 	@include media-query(lap-and-up) {
 		display: block;
 
@@ -76,6 +78,8 @@
 	padding-right: $inuit-base-spacing-unit--small;
 	padding-bottom: $inuit-base-spacing-unit--small;
 	padding-left: $inuit-base-spacing-unit;
+
+	color: $c-blue;
 
 	&:hover {
 		text-decoration: underline;

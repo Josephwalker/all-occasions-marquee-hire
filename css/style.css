@@ -802,6 +802,7 @@ img[height] {
 .nav__list {
   display: none;
   width: 100vw;
+  margin-left: 0px;
 }
 @media screen and (min-width: 900px) {
   .nav__list {
@@ -850,6 +851,7 @@ img[height] {
   padding-right: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
+  color: #000080;
 }
 @media screen and (min-width: 900px) {
   .nav__item {
