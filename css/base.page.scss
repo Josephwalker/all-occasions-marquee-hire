@@ -66,3 +66,16 @@ p {
 cite {
 	font-weight: bold;
 }
+
+label {
+	display: block;
+}
+
+.input {
+	margin-bottom: $inuit-base-spacing-unit--small;
+	width: 100%;
+
+	padding: $inuit-base-spacing-unit--small;
+
+	border: 1px solid $c-blue;
+}
