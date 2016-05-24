@@ -572,6 +572,14 @@ label {
   border: 1px solid #000080;
 }
 
+.gallery-link {
+  color: #000080;
+  text-decoration: none;
+}
+.gallery-link:hover {
+  text-decoration: underline;
+}
+
 /*------------------------------------*\
     #HEADINGS
 \*------------------------------------*/

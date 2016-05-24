@@ -79,3 +79,13 @@ label {
 
 	border: 1px solid $c-blue;
 }
+
+.gallery-link {
+	color: $c-blue;
+
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
