@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="build/css/style.min.css">
     </head>
     <body>
+        <div class="content">
         <div class="header clearfix">
            
                 <div class="wrap">
@@ -92,20 +93,27 @@
                                 <label for="email">Email:</label>
                                 <input class="input" type="email" name="email" id="email">
 
+                                <label for="date">Date of event:</label>
+                                <input class="input" type="date" name="date" id="date">
+
                                 
                             </div><!--
                          --><div class="layout__item palm-6/12">
 
 
-                                <label for="date">Date of event:</label>
-                                <input class="input" type="date" name="date" id="date">
-                                   
+                                
+
+                                <label for="address">Site address:</label>
+                                <textarea class="input" name="address" id="address" placeholder="Address"></textarea>
                                
                                 <label for="requirements">Marquee requirements:</label>
-                                <textarea class="input" name="requirements" id="requirements" placeholder="Type of event, Size of Marquee, Number of people ect"></textarea>
+                                <textarea class="input" name="requirements" id="requirements" placeholder="Type of event, Size of Marquee ect"></textarea>
+
+                                <label for="guests">Number of guests:</label>
+                                <input class="input" type="number" name="guests" id="guests">
                                
                                 <input type="hidden" name="_next" value="all-occasions-marquee-hire/thank-you.html" />
-                                <input name="sumbit" type="submit" value="Submit" class="btn btn--small" >
+                                <input name="sumbit" type="submit" value="Submit" class="btn btn--small mb" >
                              </form>
                             </div>
 
@@ -118,7 +126,7 @@
 
         </div>
        
-
+        </div>
         <div class="footer">
         </div>
         
